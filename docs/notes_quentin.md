@@ -48,3 +48,4 @@ Idée :
 - Thé => theme nature, vert
 - Graines => theme nature, vert
 - Rétrogaming => thème pixel
+- Curseur flamme pixelisé => https://www.alsacreations.com/tuto/lire/1828-Du-pixel-art-en-CSS-avec-box-shadow.html
