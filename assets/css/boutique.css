@@ -1,0 +1,66 @@
+@import url("assets/CSS/font.css");
+
+.title{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.section-cards{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 30px;
+    background-color: #dfdede;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.card-image{
+    height: 30%;
+    width: 100%;
+}
+
+.card-image img{
+    object-fit: cover;
+}
+
+.card-title{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25pt;
+}
+
+.card-price{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+.card-resume{
+    font-size: 110%;
+}
+
+.card-desc{
+    font-size: 90%;
+}
+
+.card-button{
+
+}
