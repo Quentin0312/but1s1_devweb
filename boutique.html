@@ -25,45 +25,46 @@
         <h1>Boutique</h1>
     </div>
     <section class="section-cards">
-        <div class="card">
-            <div class="card-image">
-                Image
+        <div class="category-title"><h2 id="n64">Nintendo 64</h2></div>
+        <div class="games-category">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/zelda_oot.jpg" alt="The Legend Of Zelda : Ocarina of Time image">
+                </div>
+                <div class="card-title">
+                    The Legend Of Zelda : Ocarina of Time
+                </div>
+                <div class="card-price">
+                    165.00 €
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Action Aventure<br>
+                    <strong>Mode de jeu :</strong> Un joueur<br>
+                    <strong>Date de sortie :</strong>1998
+                </div>
+                <a class="card-button" href="#">
+                    Acheter
+                </a>
             </div>
-            <div class="card-title">
-                Titre
-            </div>
-            <div class="card-price">
-                Prix
-            </div>
-            <div class="card-resume">
-                Résumé
-            </div>
-            <div class="card-desc">
-                Descirption
-            </div>
-            <div class="card-button">
-                Bouton
-            </div>
-        </div>
 
-        <div class="card">
-            <div class="card-image">
-                Image
-            </div>
-            <div class="card-title">
-                Titre
-            </div>
-            <div class="card-price">
-                Prix
-            </div>
-            <div class="card-resume">
-                Résumé
-            </div>
-            <div class="card-desc">
-                Descirption
-            </div>
-            <div class="card-button">
-                Bouton
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/mario_64.jpg">
+                </div>
+                <div class="card-title">
+                    Super Mario 64
+                </div>
+                <div class="card-price">
+                    150.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Plates-formes et aventure<br>
+                    <strong>Mode de jeu :</strong> Un joueur<br>
+                    <strong>Date de sortie :</strong>1996 - 1997
+                </div>
+                <a class="card-button" href="#">
+                    Acheter
+                </a>
             </div>
         </div>
     </section>
@@ -79,10 +80,12 @@
 
 <script>
     const title = document.getElementById('title');
-    function addClass(){
+
+    function addClass() {
         title.classList.add('title-neon');
     }
-    function rmClass(){
+
+    function rmClass() {
         title.classList.remove('title-neon');
     }
 
@@ -94,8 +97,6 @@
     setTimeout(rmClass, 925);
     setTimeout(addClass, 1325);
 </script>
-
-
 
 
 </body>
