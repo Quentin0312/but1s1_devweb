@@ -40,16 +40,15 @@
                 <div class="card-resume">
                     <strong>Genres : </strong> Action Aventure<br>
                     <strong>Mode de jeu :</strong> Un joueur<br>
-                    <strong>Date de sortie :</strong>1998
+                    <strong>Date de sortie :</strong> 1998
                 </div>
                 <a class="card-button" href="#">
-                    Acheter
+                    Voir plus
                 </a>
             </div>
-
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/images/boutique/mario_64.jpg">
+                    <img src="assets/images/boutique/mario_64.jpg" alt="Super Mario 64 image">
                 </div>
                 <div class="card-title">
                     Super Mario 64
@@ -58,12 +57,130 @@
                     150.00€
                 </div>
                 <div class="card-resume">
-                    <strong>Genres : </strong> Plates-formes et aventure<br>
+                    <strong>Genres : </strong> Plates-formes et action aventure<br>
                     <strong>Mode de jeu :</strong> Un joueur<br>
-                    <strong>Date de sortie :</strong>1996 - 1997
+                    <strong>Date de sortie :</strong> 1996 - 1997
                 </div>
                 <a class="card-button" href="#">
-                    Acheter
+                    Voir plus
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/goldeneye.jpg" alt="GoldenEye image">
+                </div>
+                <div class="card-title">
+                    GoldenEye 007
+                </div>
+                <div class="card-price">
+                    110.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Tir a la première personne<br>
+                    <strong>Mode de jeu :</strong> Un joueur - Multijoueur<br>
+                    <strong>Date de sortie :</strong> 1997
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/banjo_kazooie.png" alt="Banjo Kazooie image">
+                </div>
+                <div class="card-title">
+                    Banjo-Kazooie
+                </div>
+                <div class="card-price">
+                    190.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Plates-formes et action aventure<br>
+                    <strong>Mode de jeu :</strong> Un joueur<br>
+                    <strong>Date de sortie :</strong> 1998
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
+                </a>
+            </div>
+        </div>
+
+        <div class="category-title"><h2 id="ps2">Playstation 2</h2></div>
+        <div class="games-category">
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/god_of_war.png" alt="Gof of War image">
+                </div>
+                <div class="card-title">
+                    God of War II
+                </div>
+                <div class="card-price">
+                    45.00 €
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Action Aventure et Hack'n'slash<br>
+                    <strong>Mode de jeu :</strong> Un joueur<br>
+                    <strong>Date de sortie :</strong> 2007
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/gta.jpg" alt="GTA San Andreas image">
+                </div>
+                <div class="card-title">
+                    Grand Theft Auto : San Andreas
+                </div>
+                <div class="card-price">
+                    50.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Monde ouvert et action aventure<br>
+                    <strong>Mode de jeu :</strong> Un joueur et multijoueur<br>
+                    <strong>Date de sortie :</strong> 2004
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/ratchet.png" alt="Ratchet 3 image">
+                </div>
+                <div class="card-title">
+                    Ratchet & Clank 3
+                </div>
+                <div class="card-price">
+                    35.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Avanture et tir a la troisième personne<br>
+                    <strong>Mode de jeu :</strong> Un joueur - Multijoueur<br>
+                    <strong>Date de sortie :</strong> 2004
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="assets/images/boutique/okami.jpg" alt="Okami image">
+                </div>
+                <div class="card-title">
+                    Ōkami
+                </div>
+                <div class="card-price">
+                    40.00€
+                </div>
+                <div class="card-resume">
+                    <strong>Genres : </strong> Action Aventure<br>
+                    <strong>Mode de jeu :</strong> Un joueur<br>
+                    <strong>Date de sortie :</strong> 2006
+                </div>
+                <a class="card-button" href="#">
+                    Voir plus
                 </a>
             </div>
         </div>
@@ -78,17 +195,15 @@
     </div>
 </footer>
 
+<!-- Script pour faire l'effet néon qui s'allume sur le titre de la page -->
 <script>
     const title = document.getElementById('title');
-
     function addClass() {
         title.classList.add('title-neon');
     }
-
     function rmClass() {
         title.classList.remove('title-neon');
     }
-
     setTimeout(addClass, 300);
     setTimeout(rmClass, 375);
     setTimeout(addClass, 525);

@@ -37,19 +37,15 @@ main {
 
 .section-cards {
     width: 75%;
+    height: auto;
     border-radius: 50px;
-    padding: 25px 25px 1500px 25px;
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-    flex-wrap: wrap;
-    flex-direction: column;
+    padding: 25px 25px 25px 25px;
+    background-color: #241734;
 
     box-shadow: 0 0 7px #fff,
-    0 0 10px #2DE2E6,
-    0 0 21px #2DE2E6,
-    0 0 42px #2DE2E6;
+    0 0 10px #650D89,
+    0 0 21px #650D89,
+    0 0 42px #650D89;
 }
 
 .games-category {
@@ -57,6 +53,8 @@ main {
     justify-content: center;
     gap: 3%;
     flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 10%;
 }
 
 .category-title {
@@ -66,13 +64,18 @@ main {
     font-style: normal;
     font-size: 25pt;
     text-align: center;
+    padding: 3%;
+
 
 }
 
 .category-title h2 {
-    width: 30%;
+    width: 75%;
     border-radius: 15px;
     margin: 0 auto;
+    background-color: #2E2157;
+    color: white;
+    text-align: center;
 }
 
 #n64 {
@@ -82,23 +85,30 @@ main {
     0 0 42px #dd2020;
 }
 
+#ps2 {
+    box-shadow: 0 0 7px #fff,
+    0 0 10px #182580,
+    0 0 21px #182580,
+    0 0 42px #182580;
+}
+
 .card {
-    width: 450px;
-    height: 400px;
+    width: 475px;
+    height: auto;
     border-radius: 30px;
     background-color: #dfdede;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+    border: black solid 1px;
+    box-shadow: 0 7px 5px #650D89;
+    text-align: center;
 
+    transition-duration: .5s;
     padding-bottom: 20px;
+    margin: 1%;
 }
 
 
 .card-image {
-    height: 50%;
+    height: 25vh;
     width: 100%;
 }
 
@@ -125,16 +135,14 @@ main {
 }
 
 .card-resume {
-    font-size: 110%;
-}
-
-.card-desc {
-    font-size: 90%;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 125%;
+    margin-bottom: 20px;
 }
 
 .card-button {
-    margin-top: 10px;
-
     width: 20%;
     height: 10%;
     background-color: #2E2157;
@@ -171,4 +179,18 @@ main {
 
 .card-button:active {
     top: 2px;
+}
+
+
+@media (max-width: 575px) {
+    .category-title{
+        font-size: 15pt;
+    }
+
+    .card{
+        margin: 5% 0;
+        height: 100%;
+    }
+
+
 }
