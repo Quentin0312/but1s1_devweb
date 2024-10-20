@@ -25,13 +25,13 @@ main {
 .title-neon {
     color: #fff;
     text-shadow: 0 0 7px #fff,
-    0 0 10px #2DE2E6,
-    0 0 21px #2DE2E6,
-    0 0 42px #2DE2E6,
-    0 0 82px #2DE2E6,
-    0 0 92px #2DE2E6,
-    0 0 102px #2DE2E6,
-    0 0 151px #2DE2E6;
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue),
+    0 0 92px var(--neon-blue),
+    0 0 102px var(--neon-blue),
+    0 0 151px var(--neon-blue);
 
 }
 
@@ -43,9 +43,9 @@ main {
     background-color: #241734;
 
     box-shadow: 0 0 7px #fff,
-    0 0 10px #650D89,
-    0 0 21px #650D89,
-    0 0 42px #650D89;
+    0 0 10px var(--purple),
+    0 0 21px var(--purple),
+    0 0 42px var(--purple);
 }
 
 .games-category {
@@ -98,7 +98,7 @@ main {
     border-radius: 30px;
     background-color: #dfdede;
     border: black solid 1px;
-    box-shadow: 0 7px 5px #650D89;
+    box-shadow: 0 7px 5px var(--purple);
     text-align: center;
 
     transition-duration: .5s;
@@ -164,8 +164,8 @@ main {
 
 .card-button:hover {
     box-shadow: 0 0 7px #fff,
-    0 0 10px #650D89,
-    0 0 21px #650D89;
+    0 0 10px var(--purple),
+    0 0 21px var(--purple);
 
     transform: scale(110%);
     position: relative;
