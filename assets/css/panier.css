@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.title-neon {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue), 0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue), 0 0 92px var(--neon-blue),
+    0 0 102px var(--neon-blue), 0 0 151px var(--neon-blue);
+}
+
+.section-cards {
+  color: white;
+  width: 75%;
+  height: auto;
+  border-radius: 50px;
+  padding: 25px 25px 25px 25px;
+  background-color: #241734;
+  box-shadow: 0 0 7px #fff, 0 0 10px var(--purple), 0 0 21px var(--purple),
+    0 0 42px var(--purple);
+}
+
+h2 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+  text-align: center;
+}
