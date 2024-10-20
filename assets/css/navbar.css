@@ -3,11 +3,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: sticky;
-
   top: 0;
   height: 10vh;
   z-index: 1;
-  background-color: white;
+  background-color: var(--purple);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -17,13 +16,14 @@ nav > div {
 }
 
 #nav-logo {
+  color: yellow;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 #nav-title {
-  color: gray;
+  color: currentColor;
   /* FONTS */
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
@@ -34,6 +34,7 @@ nav > div {
 
 nav a {
   margin: 0 30px;
+  padding: 5px;
   /* FONTS */
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
@@ -42,11 +43,10 @@ nav a {
   font-size: 200%;
 }
 
-nav a.active {
-  /* FONTS */
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.nav-link:hover,
+.nav-link.active {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
 }
 
 nav img {
