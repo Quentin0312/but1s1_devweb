@@ -1,4 +1,6 @@
-@import url("assets/CSS/font.css");
+@import url("font.css");
+@import url("color.css");
+@import url("navbar.css");
 
 body {
   margin: 0;
@@ -9,51 +11,11 @@ a {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-
-  top: 0;
-  height: 10vh;
-  z-index: 1;
-  background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-nav a {
-  margin: 0 30px;
-  /* FONTS */
-  font-family: "Pixelify Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 200%;
-
-  /* font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 200%; */
-}
-
-nav a.active {
-  /* FONTS */
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-nav img {
-  margin: 0 30px;
-}
-
-
-footer{
+footer {
   width: 100%;
   height: 10vh;
   color: white;
-  background-color: #791E94;
+  background-color: #791e94;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -63,5 +25,4 @@ footer{
   font-weight: 400;
   font-style: normal;
   font-size: 200%;
-
 }
