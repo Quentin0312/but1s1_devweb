@@ -7,7 +7,7 @@ nav {
   height: 10vh;
   z-index: 1;
   background-color: var(--purple);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 var(--purple);
 }
 
 nav > div {
@@ -46,7 +46,8 @@ nav a {
 .nav-link:hover,
 .nav-link.active {
   color: white;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+  text-shadow: 0 0 7px var(--neon-blue), 0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue);
 }
 
 nav img {
