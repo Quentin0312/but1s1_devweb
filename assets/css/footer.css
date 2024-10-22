@@ -12,9 +12,19 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-size: 200%;
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
 }
 
-
-.footer-glow{
+@keyframes pulse {
+    0% {box-shadow: none}
+    50%{box-shadow: 0 0 7px #fff,
+    0 0 10px var(--purple),
+    0 0 21px var(--purple),
+    0 0 42px var(--purple),
+    0 0 82px var(--purple);}
+    100%{box-shadow: none}
 
 }
