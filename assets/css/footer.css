@@ -2,7 +2,7 @@ footer {
     width: 100%;
     height: 10vh;
     color: white;
-    background-color: #791e94;
+    background-color: var(--nav-foot-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,3 +14,7 @@ footer {
     font-size: 200%;
 }
 
+
+.footer-glow{
+
+}

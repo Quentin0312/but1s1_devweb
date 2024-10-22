@@ -40,7 +40,7 @@ main {
     height: auto;
     border-radius: 50px;
     padding: 25px 25px 25px 25px;
-    background-color: #241734;
+    background-color: var(--darkest-purple);
 
     box-shadow: 0 0 7px #fff,
     0 0 10px var(--purple),
@@ -73,7 +73,7 @@ main {
     width: 75%;
     border-radius: 15px;
     margin: 0 auto;
-    background-color: #2E2157;
+    background-color: var(--dark-purple);
     color: white;
     text-align: center;
 }
@@ -145,7 +145,7 @@ main {
 .card-button {
     width: 20%;
     height: 10%;
-    background-color: #2E2157;
+    background-color: var(--dark-purple);
     border-radius: 15px;
     text-align: center;
     padding: 10px 15px 10px 15px;
@@ -194,5 +194,3 @@ main {
 
 
 }
-
-.footer-glow{}
