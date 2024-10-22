@@ -15,6 +15,10 @@
 </head>
 
 <body>
+    <!-- DO NOT REMOVE -->
+    <script>
+        document.body.style.visibility = "hidden";
+    </script>
     <!-- <header> -->
     <nav>
         <div>
@@ -214,22 +218,7 @@
     </footer>
 
     <!-- Script pour faire l'effet néon qui s'allume sur le titre de la page -->
-    <script>
-        const title = document.getElementById('title');
-        function addClass() {
-            title.classList.add('title-neon');
-        }
-        function rmClass() {
-            title.classList.remove('title-neon');
-        }
-        setTimeout(addClass, 300);
-        setTimeout(rmClass, 375);
-        setTimeout(addClass, 525);
-        setTimeout(rmClass, 600);
-        setTimeout(addClass, 800);
-        setTimeout(rmClass, 925);
-        setTimeout(addClass, 1325);
-    </script>
+    <script src="boutique.js"></script>
 
 </body>
 
