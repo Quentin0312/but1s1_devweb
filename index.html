@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>RetroSales</title>
 </head>
 
 <body>
+    <!-- <header> -->
     <nav>
         <div>
             <a id="nav-logo" href="index.html">
@@ -29,6 +31,40 @@
             <a href="apropos.html" class="nav-link">À propos</a>
         </div>
     </nav>
+    <!-- </header> -->
+
+    <main>
+        <div id="title">
+            <h1>RetroSales</h1>
+        </div>
+        <div class="txt-intro"></div>
+
+        <section class="section-cards">
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        const title = document.getElementById('title');
+        function addClass() {
+            title.classList.add('title-neon');
+        }
+        function rmClass() {
+            title.classList.remove('title-neon');
+        }
+        setTimeout(addClass, 300);
+        setTimeout(rmClass, 375);
+        setTimeout(addClass, 525);
+        setTimeout(rmClass, 600);
+        setTimeout(addClass, 800);
+        setTimeout(rmClass, 925);
+        setTimeout(addClass, 1325);
+    </script>
 </body>
 
 </html>
