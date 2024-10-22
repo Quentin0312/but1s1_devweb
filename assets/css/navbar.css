@@ -83,4 +83,12 @@ nav img {
   #nav-title {
     margin: 5px 0;
   }
+
+  #nav-collapsible-content {
+    display: none;
+  }
+
+  /* #nav-title:hover #nav-collapsible-content {
+    display: block;
+  } */
 }
