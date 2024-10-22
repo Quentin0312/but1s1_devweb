@@ -41,6 +41,7 @@ nav a {
   font-weight: 400;
   font-style: normal;
   font-size: 200%;
+  transition-duration: .2s;
 }
 
 .nav-link:hover,
