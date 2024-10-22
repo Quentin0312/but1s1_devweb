@@ -7,7 +7,8 @@ nav {
   height: 10vh;
   z-index: 1;
   background-color: var(--purple);
-  box-shadow: 0 2px 15px 0 var(--purple);
+  box-shadow: 0 0 7px #fff, 0 0 10px var(--purple), 0 0 21px var(--purple),
+    0 0 42px var(--purple);
 }
 
 nav > div {
