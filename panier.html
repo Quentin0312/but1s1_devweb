@@ -17,18 +17,23 @@
 <body>
     <script>
         document.body.style.visibility = "hidden";
+
+        function onclick() {
+
+        }
     </script>
 
     <!-- NAVBAR -->
     <nav>
         <div>
-            <a id="nav-logo" href="index.html">
+            <!-- TODO : Ajouter href="index.html" actif quans pas responsive uniquement -->
+            <a id="nav-logo">
                 <img id="nav-logo-img" src="assets/images/SvgjsG1107.svg">
-                <span id="nav-title">RetroSales</span>
+                <span id="nav-title" onclick="">RetroSales</span>
             </a>
         </div>
 
-        <div>
+        <div id="nav-collapsible-content">
             <a href="index.html" class="nav-link">Accueil</a>
             <a href="boutique.html" class="nav-link">Boutique</a>
             <a href="panier.html" class="nav-link active">Panier</a>
