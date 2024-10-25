@@ -51,14 +51,12 @@ main {
 h2 {
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 320%;
     color: white;
 }
 
 .category-text{
     color: #fff;
-    font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 15pt;
@@ -66,6 +64,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-b{
-    font-size: 16pt;
+p, ul{
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+ul{
+    list-style-type: square;
 }
