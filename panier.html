@@ -19,7 +19,6 @@
     <script>
         document.body.style.visibility = "hidden";
 
-        // TODO : 
         function onclickNavbar() {
             const navCollapsibleElt = document.getElementById("nav-collapsible-content");
             navCollapsibleElt.classList.toggle("active");
@@ -29,9 +28,7 @@
     <!-- NAVBAR DESKTOP -->
     <nav class="nav-desktop">
         <div>
-            <!-- TODO : Ajouter href="index.html" actif quans pas responsive uniquement -->
             <a id="nav-logo">
-                <!-- <img id="nav-logo-img" src="assets/images/SvgjsG1107.svg"> -->
                 <span id="nav-title">RetroSales</span>
             </a>
         </div>
@@ -47,7 +44,6 @@
     <!-- NAVBAR DESKTOP -->
     <nav class="nav-mobile">
         <div>
-            <!-- TODO : Ajouter href="index.html" actif quans pas responsive uniquement -->
             <a id="nav-logo">
                 <span id="nav-title" onclick="onclickNavbar()">RetroSales</span>
             </a>
@@ -71,18 +67,24 @@
             <div class="basket-cards">
                 <div class="shopping-basket-game-card">
                     <img src="assets/images/boutique/god_of_war.png">
-                    <div style="display: flex; flex-direction: column; justify-content: space-evenly; width: 90%;">
-                        <div style="display: flex; align-items: center;">
+                    <div class="shopping-basket-game-card-content">
+                        <div class="shopping-basket-game-card-content-title-line">
                             <span class="card-title"> God of War</span>
                             <span class="card-desc"> Playstation 2</span><br>
                         </div>
-                        <div>
-                            <span class="card-content">
-                                <strong>Quantité:</strong>
-                                1
-                            </span><br>
-                            <span class="card-content"><strong>Prix :</strong>
-                                45 €</span>
+                        <div style="display: flex;">
+                            <div class="shopping-basket-game-card-content-desc-lines">
+                                <!-- <span class="card-content">
+                                    <strong>Quantité:</strong>
+                                    1
+                                </span><br> -->
+                                <span class="card-content-price">Prix :</span><span class="card-content-price"> 45
+                                    €</span>
+                            </div>
+                            <div>
+                                <!-- <img src="assets/images/panier/minus.png"
+                                    style="border-radius: 50%; width: 50px; height: 50px; object-fit: contain;"> -->
+                            </div>
                         </div>
                     </div>
                     <div style="height: 100%; display: flex; align-items: end; justify-content: end;">
@@ -91,6 +93,19 @@
                     </div>
                 </div>
             </div>
+            <h2>Total</h2>
+            <div class="basket-cards">
+                <div class="shopping-basket-game-card-price">
+                    <div>
+                        <span class="total-price-card-content">Sous-total : 45 €</span><br>
+                        <span class="total-price-card-content">Livraison : 5.50 €</span>
+                    </div>
+                    <div>
+                        <div class="buy-btn">Paiment</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
     <!-- FOOTER -->
