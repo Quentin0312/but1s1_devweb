@@ -126,7 +126,7 @@ label{
 button {
     color: black;
     font-family: 'VT323', monospace; 
-    font-size: 30px; 
+    font-size: 25px; 
     padding: 10px 15px; 
     border: 3px solid ; 
     border-radius: 5px; 
@@ -135,9 +135,9 @@ button {
     letter-spacing: 2px; 
 }
 button:hover {
-    background-color: #df91c7; /* Change légèrement la couleur au survol */
-    box-shadow: 7px 7px 0px black; /* Accentue l'ombre au survol */
-    transform: translate(-2px, -2px); /* Déplace légèrement pour un effet d'enfoncement */
+    background-color: #df91c7; 
+    box-shadow: 7px 7px 0px black; 
+    transform: translate(-2px, -2px); 
 }
 button:active {
     background-color: #ce75b3;
