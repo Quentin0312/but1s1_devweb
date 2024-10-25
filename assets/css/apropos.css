@@ -144,3 +144,18 @@ button:active {
     box-shadow: 3px 3px 0px black;
     transform: translate(2px, 2px);
 }
+
+fieldset {
+    border: 2px solid ; 
+    transition: border-color 0.3s, border-width 0.3s; 
+}
+fieldset:hover {
+    border-color: #df91c7; 
+    border-width: 4px;
+}
+fieldset:hover {
+    color: #df91c7;
+    transition: color 0.3s;
+    box-shadow: 4px 4px 0px #000;
+    transform: translate(-2px, -2px);
+}
