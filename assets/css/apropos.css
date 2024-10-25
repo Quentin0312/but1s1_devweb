@@ -74,7 +74,6 @@ h2 {
     margin-right: auto;
     text-align: center;
 }
-
 p, ul{
     font-family: "VT323", monospace;
     font-weight: 400;
@@ -84,4 +83,8 @@ p, ul{
 ul{
     list-style-type: square;
 }
-
+.textaera{
+    resize: none; /* désactive le redimensionnement */
+    max-height: 300px; /* fixe la hauteur maximale */
+    min-height: 100px;
+}
