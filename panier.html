@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
         rel="stylesheet">
@@ -19,18 +20,36 @@
         document.body.style.visibility = "hidden";
 
         // TODO : 
-        function onclick() {
-
+        function onclickNavbar() {
+            const navCollapsibleElt = document.getElementById("nav-collapsible-content");
+            navCollapsibleElt.classList.toggle("active");
         }
     </script>
 
-    <!-- NAVBAR -->
-    <nav>
+    <!-- NAVBAR DESKTOP -->
+    <nav class="nav-desktop">
         <div>
             <!-- TODO : Ajouter href="index.html" actif quans pas responsive uniquement -->
             <a id="nav-logo">
-                <img id="nav-logo-img" src="assets/images/SvgjsG1107.svg">
-                <span id="nav-title" onclick="">RetroSales</span>
+                <!-- <img id="nav-logo-img" src="assets/images/SvgjsG1107.svg"> -->
+                <span id="nav-title">RetroSales</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="boutique.html" class="nav-link">Boutique</a>
+            <a href="panier.html" class="nav-link active">Panier</a>
+            <a href="apropos.html" class="nav-link">À propos</a>
+        </div>
+    </nav>
+
+    <!-- NAVBAR DESKTOP -->
+    <nav class="nav-mobile">
+        <div>
+            <!-- TODO : Ajouter href="index.html" actif quans pas responsive uniquement -->
+            <a id="nav-logo">
+                <span id="nav-title" onclick="onclickNavbar()">RetroSales</span>
             </a>
         </div>
 

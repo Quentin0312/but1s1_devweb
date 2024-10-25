@@ -25,6 +25,7 @@ nav > div {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 #nav-title {
@@ -60,35 +61,46 @@ nav img {
   margin: 0 30px;
 }
 
+.nav-mobile {
+  display: none;
+}
+
+.nav-mobile #nav-collapsible-content {
+  display: none;
+}
+
 /* Responsive */
 @media only screen and (max-width: 1165px) {
-  nav > div {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+  }
+
+  .nav-mobile > div {
     flex-direction: column;
   }
 
-  nav {
+  .nav-mobile {
     height: auto;
     flex-direction: column;
     padding-bottom: 10px;
   }
 
-  #nav-logo-img {
+  /* #nav-logo-img {
     display: none;
-  }
+  } */
 
-  nav a {
+  .nav-mobile a {
     margin: 2px 0;
   }
 
-  #nav-title {
+  .nav-mobile #nav-title {
     margin: 5px 0;
   }
 
-  #nav-collapsible-content {
-    display: none;
+  .nav-mobile #nav-collapsible-content.active {
+    display: flex;
   }
-
-  /* #nav-title:hover #nav-collapsible-content {
-    display: block;
-  } */
 }
