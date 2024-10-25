@@ -160,6 +160,19 @@ h2 {
   justify-content: end;
 }
 
+.trashcan {
+  object-fit: contain;
+  height: 70px;
+  cursor: pointer;
+  margin: 5px;
+  transition-duration: 0.2s;
+}
+
+.trashcan:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
 @media only screen and (max-width: 1165px) {
   .shopping-basket-game-card {
     flex-direction: column;
