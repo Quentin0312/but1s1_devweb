@@ -64,6 +64,17 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+.category-formulaire{
+    color: #fff;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 p, ul{
     font-family: "VT323", monospace;
     font-weight: 400;
@@ -73,3 +84,4 @@ p, ul{
 ul{
     list-style-type: square;
 }
+
