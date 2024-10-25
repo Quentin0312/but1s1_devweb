@@ -40,7 +40,7 @@ main {
 }
 
 .shopping-basket-game-card {
-  width: 100%;
+  width: 50%;
   border-radius: 30px;
   background-color: var(--card-bg-color);
   display: flex;
