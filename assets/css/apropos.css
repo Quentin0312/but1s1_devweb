@@ -64,16 +64,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-.category-formulaire{
-    color: #fff;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 15pt;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+
 p, ul{
     font-family: "VT323", monospace;
     font-weight: 400;
@@ -84,7 +75,51 @@ ul{
     list-style-type: square;
 }
 .textaera{
-    resize: none; /* désactive le redimensionnement */
-    max-height: 300px; /* fixe la hauteur maximale */
+    resize: none; 
+    max-height: 300px; 
     min-height: 100px;
+}
+/* partie formulaire*/
+.category-formulaire{
+    color: #fff;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*champs d'entrée */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%; 
+    max-width: 500px; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px; 
+    resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family:"VT323", monospace;
+    font-size: 22px; 
+}
+
+label,
+legend {
+    font-family: 'VT323', monospace; 
+    font-size: 35px; 
+}
+label{
+    margin-top: 10px;
 }
