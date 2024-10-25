@@ -47,7 +47,8 @@ main {
 }
 
 .shopping-basket-game-card img {
-  width: 35%;
+  /* width: 35%; */
+  height: 10em;
   margin: 1%;
   /* height: 120000000%; */
   object-fit: cover;
@@ -55,14 +56,15 @@ main {
   border-radius: 30px;
 }
 .card-desc {
-  color: #182580;
+  color: white;
+  background-color: var(--darkest-purple);
   font-weight: 300;
   font-style: normal;
   margin-right: 5px;
   font-size: 75%;
   border-radius: 20px;
   padding: 3px 6px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .card-content {
   color: black;
