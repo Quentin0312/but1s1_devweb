@@ -47,3 +47,22 @@ main {
     0 0 21px var(--purple),
     0 0 42px var(--purple);
 }
+
+h2 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 320%;
+    color: white;
+}
+
+.category-text{
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
