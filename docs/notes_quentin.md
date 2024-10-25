@@ -12,9 +12,9 @@ Site e-commerce de 4 pages
 
 Étapes =>
 
-- Trouver un concept
-- Adopter une charte graphique
-- Architecture du site
+- [x] Trouver un concept
+- [x] Adopter une charte graphique
+- [x] Architecture du site
 
 Fonctionnalités:
 
