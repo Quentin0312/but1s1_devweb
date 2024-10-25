@@ -30,7 +30,9 @@ main {
 
 .basket-cards {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .basket-page-content {
@@ -52,10 +54,9 @@ main {
 }
 
 .shopping-basket-game-card img {
-  /* width: 35%; */
   height: 10em;
+  width: 10em;
   margin: 1%;
-  /* height: 120000000%; */
   object-fit: cover;
   object-position: center;
   border-radius: 30px;
@@ -71,7 +72,6 @@ main {
   border-radius: 20px;
   padding: 3px 6px;
   margin-left: 3px;
-  /* border: 1px solid black; */
 }
 .card-content {
   color: black;
@@ -103,8 +103,6 @@ main {
   font-weight: 300;
   font-style: normal;
   font-size: 25pt;
-
-  /* margin: 25px; */
 }
 
 .buy-btn {
@@ -159,6 +157,10 @@ h2 {
 @media only screen and (max-width: 1165px) {
   .shopping-basket-game-card {
     flex-direction: column;
+  }
+
+  .shopping-basket-game-card img {
+    width: 100%;
   }
 
   .shopping-basket-game-card-price {
