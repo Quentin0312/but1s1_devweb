@@ -12,19 +12,81 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-size: 200%;
-    animation-name: pulse;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 
-}
-
-@keyframes pulse {
-    0% {box-shadow: none}
-    50%{box-shadow: 0 0 7px #fff,
+    box-shadow: 0 0 7px #fff,
     0 0 10px var(--purple),
     0 0 21px var(--purple),
     0 0 42px var(--purple),
-    0 0 82px var(--purple);}
-    100%{box-shadow: none}
+    0 0 82px var(--purple);
+
+}
+
+footer div{
+
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    14% {text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    16% {text-shadow: none; color: black}
+    18%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    20%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    22% {text-shadow: none; color: black}
+    40% {text-shadow: none; color: black}
+    42%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    63%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    65% {text-shadow: none; color: black}
+    73% {text-shadow: none; color: black}
+    75%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    77% {text-shadow: none; color: black}
+    92% {text-shadow: none; color: black}
+    94%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+    100%{text-shadow: 0 0 7px #fff,
+    0 0 10px var(--neon-blue),
+    0 0 21px var(--neon-blue),
+    0 0 42px var(--neon-blue),
+    0 0 82px var(--neon-blue); color: white}
+
+}
+
+@media (max-width: 700px) {
+    footer div {
+        font-size: 15pt;
+    }
 
 }
