@@ -95,3 +95,30 @@ h2 {
   font-size: 300%;
   text-align: center;
 }
+.shopping-basket-game-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.shopping-basket-game-card-content-title-line {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1165px) {
+  .shopping-basket-game-card {
+    flex-direction: column;
+  }
+  .shopping-basket-game-card-content {
+    width: 100%;
+  }
+  .shopping-basket-game-card-content-title-line {
+    justify-content: center;
+  }
+  .shopping-basket-game-card-content-desc-lines {
+    padding-left: 1%;
+    margin-top: 1%;
+  }
+}
