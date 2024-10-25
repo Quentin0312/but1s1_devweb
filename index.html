@@ -8,71 +8,93 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
-          rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <title>RetroSales</title>
 </head>
 
 <body>
-<!-- <header> -->
-<nav>
-    <div>
-        <a id="nav-logo" href="index.html">
-            <img id="nav-logo-img" src="assets/images/SvgjsG1107.svg" alt="logo">
-            <span id="nav-title">RetroSales</span>
-        </a>
-    </div>
+    <script>
+        function onclickNavbar() {
+            const navCollapsibleElt = document.getElementById("nav-collapsible-content");
+            navCollapsibleElt.classList.toggle("active");
+        }
+    </script>
+    <!-- <header> -->
+    <!-- NAVBAR DESKTOP -->
+    <nav class="nav-desktop">
+        <div>
+            <a id="nav-logo">
+                <span id="nav-title">RetroSales</span>
+            </a>
+        </div>
 
-    <div>
-        <a href="index.html" class="nav-link active">Accueil</a>
-        <a href="boutique.html" class="nav-link">Boutique</a>
-        <a href="panier.html" class="nav-link">Panier</a>
-        <a href="apropos.html" class="nav-link">À propos</a>
-    </div>
-</nav>
-<!-- </header> -->
+        <div>
+            <a href="index.html" class="nav-link active">Accueil</a>
+            <a href="boutique.html" class="nav-link">Boutique</a>
+            <a href="panier.html" class="nav-link">Panier</a>
+            <a href="apropos.html" class="nav-link">À propos</a>
+        </div>
+    </nav>
 
-<main>
-    <div id="title">
-        <h1>RetroSales</h1>
-    </div>
-    <div class="txt-intro"></div>
+    <!-- NAVBAR DESKTOP -->
+    <nav class="nav-mobile">
+        <div>
+            <a id="nav-logo">
+                <span id="nav-title" onclick="onclickNavbar()">RetroSales</span>
+            </a>
+        </div>
 
-    <section class="section-cards">
+        <div id="nav-collapsible-content">
+            <a href="index.html" class="nav-link active">Accueil</a>
+            <a href="boutique.html" class="nav-link">Boutique</a>
+            <a href="panier.html" class="nav-link">Panier</a>
+            <a href="apropos.html" class="nav-link">À propos</a>
+        </div>
+    </nav>
+    <!-- </header> -->
 
-    </section>
+    <main>
+        <div id="title">
+            <h1>RetroSales</h1>
+        </div>
+        <div class="txt-intro"></div>
 
-</main>
+        <section class="section-cards">
 
-<footer>
-    <div>
-        Projet développement WEB
-    </div>
-    <div>
-        Page créé par : ROYER Thomas
-    </div>
-</footer>
+        </section>
 
-<script>
-    const title = document.getElementById('title');
+    </main>
 
-    function addClass() {
-        title.classList.add('title-neon');
-    }
+    <footer>
+        <div>
+            Projet développement WEB
+        </div>
+        <div>
+            Page créé par : ROYER Thomas
+        </div>
+    </footer>
 
-    function rmClass() {
-        title.classList.remove('title-neon');
-    }
+    <script>
+        const title = document.getElementById('title');
 
-    setTimeout(addClass, 300);
-    setTimeout(rmClass, 375);
-    setTimeout(addClass, 525);
-    setTimeout(rmClass, 600);
-    setTimeout(addClass, 800);
-    setTimeout(rmClass, 925);
-    setTimeout(addClass, 1325);
-</script>
+        function addClass() {
+            title.classList.add('title-neon');
+        }
+
+        function rmClass() {
+            title.classList.remove('title-neon');
+        }
+
+        setTimeout(addClass, 300);
+        setTimeout(rmClass, 375);
+        setTimeout(addClass, 525);
+        setTimeout(rmClass, 600);
+        setTimeout(addClass, 800);
+        setTimeout(rmClass, 925);
+        setTimeout(addClass, 1325);
+    </script>
 </body>
 
 </html>
