@@ -79,6 +79,7 @@ ul{
     max-height: 300px; 
     min-height: 100px;
 }
+
 /* partie formulaire*/
 .category-formulaire{
     color: #fff;
@@ -91,9 +92,7 @@ ul{
     text-align: center;
     margin-bottom: 30px;
 }
-
-/*champs d'entrée */
-
+    /*champs d'entrée */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -122,4 +121,26 @@ legend {
 }
 label{
     margin-top: 10px;
+}
+/* bouton valider */
+button {
+    color: black;
+    font-family: 'VT323', monospace; 
+    font-size: 30px; 
+    padding: 10px 15px; 
+    border: 3px solid ; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
+button:hover {
+    background-color: #df91c7; /* Change légèrement la couleur au survol */
+    box-shadow: 7px 7px 0px black; /* Accentue l'ombre au survol */
+    transform: translate(-2px, -2px); /* Déplace légèrement pour un effet d'enfoncement */
+}
+button:active {
+    background-color: #ce75b3;
+    box-shadow: 3px 3px 0px black;
+    transform: translate(2px, 2px);
 }
