@@ -44,9 +44,8 @@ function updateContainerPosition() {
     const margin = 15; // Margin in pixels
     const totalWidth = commentWidth + (margin * 2 / window.innerWidth * 100); // Convert margin to percentage
 
-    // Calculate the offset based on the current index and the total width of one comment
-    const offset = -currentIndex * totalWidth; // Adjust the offset based on the current index
-    commentsContainer.style.transform = `translateX(${offset}%)`; // Apply the sliding effect
+    const offset = -currentIndex * totalWidth;
+    commentsContainer.style.transform = `translateX(${offset}%)`; 
 }
 
 prevBtn.addEventListener('click', () => {

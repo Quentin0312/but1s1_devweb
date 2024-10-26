@@ -32,7 +32,7 @@ main {
         0 0 151px var(--neon-blue);
 }
 
-.txt-intro,
+.txt-slg,
 h2,
 h3 {
     font-family: "Jersey 10", sans-serif;
@@ -43,9 +43,10 @@ h3 {
     font-size: 40pt;
     text-align: center;
     color: white;
+    margin-top: 0;
 }
 
-.txt-intro {
+.txt-slg {
     margin: 0px 0px 60px 0px;
     height: 40pt;
     color: #cfcfcf;
@@ -72,33 +73,72 @@ section {
     color: orange;
 }
 
-/*  Scetion Principale  */
-
-.grid {
-    display: flex;
-    flex: column wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
+/* Section Principale */
+.section-1 {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e0f20;
+    color: white;
 }
 
-.grid * {
-    text-align: center;
-    margin: 10px 30px 10px 30px;
-    max-width: 600pt;
+.section-1 h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.grid {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .sqr {
     background-color: var(--darkest-purple);
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 350;
+    font-size: 25pt;
+    color: #cfcfcf;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    max-width: 400px;
+    flex: 1 1 280px;
+    text-align: center;
+}
+
+.sqr img {
+    width: 40%;
+    height: auto;
+    padding: 30px 0px 5px 0px;
+    border-bottom: 2px solid #333;
+}
+
+.sqr div {
+    padding: 20px;
+}
+
+.txt-intro {
+    align-content: center;
     font-family: "VT323", monospace;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 20pt;
+    max-width: 950pt;
+    margin: 10px auto 20px auto;
 }
 
 
-
 /* Section Best Sellers */
+.section-2 {
+    padding-bottom: 30px;
+}
+
 .best-sellers {
     justify-content: center;
     align-items: center;
@@ -214,7 +254,7 @@ section {
 
 .ctg-item {
     flex: 1 1 250px;
-    max-width: 100%;
+    max-width: 60%;
     position: relative;
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -260,20 +300,24 @@ section {
 
 
 /* Reviews */
+
+.section-4 {
+    padding-bottom: 40px;
+}
+
 .carousel {
     font-family: "Jersey 10", sans-serif;
     display: flex;
     justify-self: center;
     align-items: center;
     justify-content: center;
-    margin: 10pt 120pt 15pt 120pt;
 }
 
 .carousel-comms {
     display: flex;
     align-items: center;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
 }
 
 .comments-container {
@@ -346,4 +390,27 @@ section {
 
 .nav-button:hover {
     background-color: #390758;
+}
+
+@media (max-width: 1300px) {
+    .carousel {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        margin: 0;
+    }
+    .carousel-comms {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        width: 90%;
+    }
+    
+    .comments-container {
+        display: flex;
+        max-width: 1000pt;
+        transition: transform 1s ease;
+    }
 }
